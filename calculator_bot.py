@@ -52,7 +52,7 @@ def show_history(update, context):
 
 
 def main():
-    updater = Updater("8054478723:AAHXMxzUdQv56Prk0EVLKpIgivFI9pxtoVk", use_context=True)
+    updater = Updater("", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
