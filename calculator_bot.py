@@ -7,7 +7,7 @@ def calculate_math(expression):
     url = "https://math6.p.rapidapi.com/generate"
     payload = {"data": expression}
     headers = {
-        "x-rapidapi-key": "681d33d17amsh5b06fddb725f4fap1f1a34jsnb2ed2c4e5dd6",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "math6.p.rapidapi.com",
         "Content-Type": "application/json"
     }
